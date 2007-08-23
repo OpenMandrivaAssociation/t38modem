@@ -1,7 +1,7 @@
 %define	name	t38modem
 %define	version	0.8.0
 %define	snap	20050322
-%define	release	%mkrel 0.%{snap}.4
+%define	release	%mkrel 0.%{snap}.5
 
 %{expand:%%define o_ver %(echo v%{version}| sed "s#\.#_#g")}
 %define openh323_version 1.15.3
