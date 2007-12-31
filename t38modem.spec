@@ -47,7 +47,7 @@ export CXXFLAGS="%{optflags} -DLDAP_DEPRECATED"
     OPENH323DIR=%{_prefix} \
     PREFIX=%{_prefix} \
     PWLIB_BUILD=1 \
-    optshared \
+    optshared
 
 %install
 [ "%{buildroot}" != "/" ] && rm -rf %{buildroot}
