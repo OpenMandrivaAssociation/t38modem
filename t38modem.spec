@@ -1,7 +1,7 @@
 %define	name	t38modem
 %define	version	0.8.0
 %define	snap	20050322
-%define	release	%mkrel 0.%{snap}.5
+%define	release	%mkrel 0.%{snap}.6
 
 %{expand:%%define o_ver %(echo v%{version}| sed "s#\.#_#g")}
 %define openh323_version 1.15.3
@@ -23,11 +23,11 @@ Requires:	openh323_1 >= %{openh323_version}
 %description
 This is a H.323 fax (T.38) client, T38FAX Pseudo Modem.
 
- o From your fax application view point it's a fax modem pool.
- o From IP network view point it's a H.323 endpoint with T.38 fax
+ o From your fax application's viewpoint it's a fax modem pool.
+ o From an IP network's viewpoint it's an H.323 endpoint with T.38 fax
    support.
- o From your view point it's a gateway between a fax application
-   and IP network.
+ o From your viewpoint it's a gateway between a fax application
+   and an IP network.
 
 %prep
 
