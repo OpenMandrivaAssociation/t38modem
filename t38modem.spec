@@ -45,6 +45,7 @@ export CXXFLAGS="%{optflags} -DLDAP_DEPRECATED"
     OPTCCFLAGS="%{optflags}" \
     PWLIBDIR=%{_datadir}/pwlib \
     OPENH323DIR=%{_prefix} \
+    OH323_LIBDIR=%{_libdir} \
     PREFIX=%{_prefix} \
     PWLIB_BUILD=1 \
     optshared
