@@ -19,6 +19,7 @@ Patch0:		t38modem-mak_files.diff
 BuildRequires:	openh323-devel >= %{openh323_version} pwlib-devel >= %{pwlib_version}
 Conflicts:	vpb-devel
 Requires:	openh323_1 >= %{openh323_version}
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 This is a H.323 fax (T.38) client, T38FAX Pseudo Modem.
