@@ -13,7 +13,7 @@ Version:	%{version}
 Release:	%{release}
 License:	MPL
 Group:		Communications
-URL:		http://openh323.sourceforge.net/
+URL:		https://openh323.sourceforge.net/
 Source0:	%{name}-%{o_ver}-%{snap}-src.tar.bz2
 Patch0:		t38modem-mak_files.diff
 BuildRequires:	openh323-devel >= %{openh323_version} pwlib-devel >= %{pwlib_version}
